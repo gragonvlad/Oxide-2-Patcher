@@ -1,6 +1,6 @@
 {
   "Name": "RustExperimental",
-  "TargetDirectory": "D:\\Oxide\\Rust Server\\Release\\RustDedicated_Data\\Managed",
+  "TargetDirectory": "C:\\Users\\Administrator\\Desktop\\test\\Release\\RustDedicated_Data\\Managed",
   "Manifests": [
     {
       "AssemblyName": "Assembly-CSharp",
@@ -135,7 +135,7 @@
                 "Network.Message"
               ]
             },
-            "MSILHash": "Q8IUmYGLtWgWVKl1CFm4EmBLQ3JoW3ipjsm5Y5hniIw="
+            "MSILHash": "EW8GwtKoaNPMo7mutYtJnqAzYwQ5kVHJPBeDWemWrFA="
           }
         },
         {
@@ -444,6 +444,176 @@
               ]
             },
             "MSILHash": "Xbvp5rKJLOdOJk14LLqukbMXLyI+pPSsENu2DUom8HY="
+          }
+        },
+        {
+          "Type": "Simple",
+          "Hook": {
+            "InjectionIndex": 96,
+            "ReturnBehaviour": 0,
+            "ArgumentBehaviour": 4,
+            "ArgumentString": "a1, l3",
+            "HookTypeName": "Simple",
+            "Name": "Item_Modules_Planer_OnBuild",
+            "HookName": "OnBuildEntity",
+            "AssemblyName": "Assembly-CSharp",
+            "TypeName": "Item/Modules/Planner",
+            "Flagged": false,
+            "Signature": {
+              "Exposure": 2,
+              "Name": "OnBuild",
+              "ReturnType": "System.Void",
+              "Parameters": [
+                "Item",
+                "BasePlayer",
+                "ProtoBuf.CreateBuilding"
+              ]
+            },
+            "MSILHash": "7fzdOAVhC1BucdUk2+t6Bunqb6zAiX4Fg2d2SLEkXyM="
+          }
+        },
+        {
+          "Type": "Simple",
+          "Hook": {
+            "InjectionIndex": 0,
+            "ReturnBehaviour": 1,
+            "ArgumentBehaviour": 3,
+            "ArgumentString": null,
+            "HookTypeName": "Simple",
+            "Name": "BaseLock_OnTryToOpen",
+            "HookName": "CanOpenDoor",
+            "AssemblyName": "Assembly-CSharp",
+            "TypeName": "BaseLock",
+            "Flagged": false,
+            "Signature": {
+              "Exposure": 2,
+              "Name": "OnTryToOpen",
+              "ReturnType": "System.Boolean",
+              "Parameters": [
+                "BasePlayer"
+              ]
+            },
+            "MSILHash": "VOzBIbOCj6kT9pFytK2L6Qu8lbfZNK0+bMVqXBxvOCE="
+          }
+        },
+        {
+          "Type": "Simple",
+          "Hook": {
+            "InjectionIndex": 0,
+            "ReturnBehaviour": 1,
+            "ArgumentBehaviour": 3,
+            "ArgumentString": null,
+            "HookTypeName": "Simple",
+            "Name": "CodeLock_OnTryToOpen",
+            "HookName": "CanOpenDoor",
+            "AssemblyName": "Assembly-CSharp",
+            "TypeName": "CodeLock",
+            "Flagged": false,
+            "Signature": {
+              "Exposure": 2,
+              "Name": "OnTryToOpen",
+              "ReturnType": "System.Boolean",
+              "Parameters": [
+                "BasePlayer"
+              ]
+            },
+            "MSILHash": "cvmCNmrb4rKwyTwNWEcMrvcbaJmIvkaVOSzCTAcM2iY="
+          }
+        },
+        {
+          "Type": "Simple",
+          "Hook": {
+            "InjectionIndex": 0,
+            "ReturnBehaviour": 1,
+            "ArgumentBehaviour": 3,
+            "ArgumentString": null,
+            "HookTypeName": "Simple",
+            "Name": "CodeLock_OnTryToClose",
+            "HookName": "CanOpenDoor",
+            "AssemblyName": "Assembly-CSharp",
+            "TypeName": "CodeLock",
+            "Flagged": false,
+            "Signature": {
+              "Exposure": 2,
+              "Name": "OnTryToClose",
+              "ReturnType": "System.Boolean",
+              "Parameters": [
+                "BasePlayer"
+              ]
+            },
+            "MSILHash": "cvmCNmrb4rKwyTwNWEcMrvcbaJmIvkaVOSzCTAcM2iY="
+          }
+        },
+        {
+          "Type": "Simple",
+          "Hook": {
+            "InjectionIndex": 0,
+            "ReturnBehaviour": 1,
+            "ArgumentBehaviour": 3,
+            "ArgumentString": null,
+            "HookTypeName": "Simple",
+            "Name": "KeyLock_OnTryToClose",
+            "HookName": "CanOpenDoor",
+            "AssemblyName": "Assembly-CSharp",
+            "TypeName": "KeyLock",
+            "Flagged": false,
+            "Signature": {
+              "Exposure": 2,
+              "Name": "OnTryToClose",
+              "ReturnType": "System.Boolean",
+              "Parameters": [
+                "BasePlayer"
+              ]
+            },
+            "MSILHash": "HcMBgIxIuVLHNVxwrSkv5osPX1wOhDwzxx+AO+L8JSM="
+          }
+        },
+        {
+          "Type": "Simple",
+          "Hook": {
+            "InjectionIndex": 0,
+            "ReturnBehaviour": 1,
+            "ArgumentBehaviour": 3,
+            "ArgumentString": null,
+            "HookTypeName": "Simple",
+            "Name": "KeyLock_OnTryToOpen",
+            "HookName": "CanOpenDoor",
+            "AssemblyName": "Assembly-CSharp",
+            "TypeName": "KeyLock",
+            "Flagged": false,
+            "Signature": {
+              "Exposure": 2,
+              "Name": "OnTryToOpen",
+              "ReturnType": "System.Boolean",
+              "Parameters": [
+                "BasePlayer"
+              ]
+            },
+            "MSILHash": "HcMBgIxIuVLHNVxwrSkv5osPX1wOhDwzxx+AO+L8JSM="
+          }
+        },
+        {
+          "Type": "Simple",
+          "Hook": {
+            "InjectionIndex": 6,
+            "ReturnBehaviour": 1,
+            "ArgumentBehaviour": 2,
+            "ArgumentString": "",
+            "HookTypeName": "Simple",
+            "Name": "chat_say",
+            "HookName": "OnUserChat",
+            "AssemblyName": "Assembly-CSharp",
+            "TypeName": "chat",
+            "Flagged": false,
+            "Signature": {
+              "Exposure": 2,
+              "Name": "say",
+              "ReturnType": "System.Void",
+              "Parameters": [
+                "ConsoleSystem/Arg"
+              ]
+            },
+            "MSILHash": "XIQFPAJ1MvgA5xuqQKaRVqmK82fgagb71zTREZkYZUE="
           }
         }
       ]
