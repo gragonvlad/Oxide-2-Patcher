@@ -1,6 +1,6 @@
 {
   "Name": "RustExperimental",
-  "TargetDirectory": "C:\\Users\\Administrator\\Desktop\\test\\Release\\RustDedicated_Data\\Managed",
+  "TargetDirectory": "D:\\Oxide\\Rust Server\\Release\\RustDedicated_Data\\Managed",
   "Manifests": [
     {
       "AssemblyName": "Assembly-CSharp",
