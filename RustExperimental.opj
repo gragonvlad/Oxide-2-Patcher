@@ -1,6 +1,6 @@
 {
   "Name": "RustExperimental",
-  "TargetDirectory": "C:\\Users\\Administrator\\Desktop\\test\\Release\\RustDedicated_Data\\Managed",
+  "TargetDirectory": "D:\\Oxide\\Rust Server\\Release\\RustDedicated_Data\\Managed",
   "Manifests": [
     {
       "AssemblyName": "Assembly-CSharp",
@@ -640,6 +640,30 @@
               ]
             },
             "MSILHash": "m6All8Yn7V2IKal5sO/dWFa0Yt9+BQlQfDxVEkkx2T8="
+          }
+        },
+        {
+          "Type": "Simple",
+          "Hook": {
+            "InjectionIndex": 37,
+            "ReturnBehaviour": 0,
+            "ArgumentBehaviour": 3,
+            "ArgumentString": null,
+            "HookTypeName": "Simple",
+            "Name": "StartLootingPlayer",
+            "HookName": "OnStartLootingPlayer",
+            "AssemblyName": "Assembly-CSharp",
+            "TypeName": "PlayerLoot",
+            "Flagged": false,
+            "Signature": {
+              "Exposure": 2,
+              "Name": "StartLootingPlayer",
+              "ReturnType": "System.Void",
+              "Parameters": [
+                "BasePlayer"
+              ]
+            },
+            "MSILHash": "hlJX8mTIARG5eXNz3dcO41GUJj46aHztsq3YKggc6mY="
           }
         }
       ]
