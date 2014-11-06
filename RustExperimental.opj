@@ -665,6 +665,32 @@
             },
             "MSILHash": "hlJX8mTIARG5eXNz3dcO41GUJj46aHztsq3YKggc6mY="
           }
+        },
+        {
+          "Type": "Simple",
+          "Hook": {
+            "InjectionIndex": 75,
+            "ReturnBehaviour": 0,
+            "ArgumentBehaviour": 4,
+            "ArgumentString": "a2, l4, a1",
+            "HookTypeName": "Simple",
+            "Name": "Item_Modules_Deploy_DoDeploy",
+            "HookName": "OnDeployed",
+            "AssemblyName": "Assembly-CSharp",
+            "TypeName": "Item/Modules/Deploy",
+            "Flagged": false,
+            "Signature": {
+              "Exposure": 2,
+              "Name": "DoDeploy",
+              "ReturnType": "System.Boolean",
+              "Parameters": [
+                "Item",
+                "UnityEngine.Ray",
+                "BasePlayer"
+              ]
+            },
+            "MSILHash": "dpKYQebJ35I5EJDK9ewhUn+EpvHtAXTDx4XdfP8HHZw="
+          }
         }
       ]
     },
