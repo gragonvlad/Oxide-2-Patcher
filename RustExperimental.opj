@@ -455,7 +455,7 @@
             "ArgumentString": "a1, l3",
             "HookTypeName": "Simple",
             "Name": "Item_Modules_Planer_OnBuild",
-            "HookName": "OnBuildEntity",
+            "HookName": "OnEntityBuilt",
             "AssemblyName": "Assembly-CSharp",
             "TypeName": "Item/Modules/Planner",
             "Flagged": false,
@@ -601,7 +601,7 @@
             "ArgumentString": "",
             "HookTypeName": "Simple",
             "Name": "chat_say",
-            "HookName": "OnUserChat",
+            "HookName": "OnPlayerChat",
             "AssemblyName": "Assembly-CSharp",
             "TypeName": "chat",
             "Flagged": false,
@@ -625,7 +625,7 @@
             "ArgumentString": "a0, a1, l0 => l0",
             "HookTypeName": "Simple",
             "Name": "ItemCrafter_CraftItem",
-            "HookName": "OnStartCrafting",
+            "HookName": "OnItemCraft",
             "AssemblyName": "Assembly-CSharp",
             "TypeName": "ItemCrafter",
             "Flagged": false,
@@ -650,8 +650,8 @@
             "ArgumentBehaviour": 3,
             "ArgumentString": null,
             "HookTypeName": "Simple",
-            "Name": "StartLootingPlayer",
-            "HookName": "OnStartLootingPlayer",
+            "Name": "PlayerLoot_StartLootingPlayer",
+            "HookName": "OnPlayerLoot",
             "AssemblyName": "Assembly-CSharp",
             "TypeName": "PlayerLoot",
             "Flagged": false,
@@ -675,7 +675,7 @@
             "ArgumentString": "a2,l4,a1",
             "HookTypeName": "Simple",
             "Name": "Item_Modules_Deploy_DoDeploy",
-            "HookName": "OnDeployedEntity",
+            "HookName": "OnItemDeployed",
             "AssemblyName": "Assembly-CSharp",
             "TypeName": "Item/Modules/Deploy",
             "Flagged": false,
@@ -719,23 +719,50 @@
         {
           "Type": "Simple",
           "Hook": {
-            "InjectionIndex": 0,
-            "ReturnBehaviour": 1,
-            "ArgumentBehaviour": 1,
-            "ArgumentString": null,
+            "InjectionIndex": 17,
+            "ReturnBehaviour": 0,
+            "ArgumentBehaviour": 4,
+            "ArgumentString": "this,a0",
             "HookTypeName": "Simple",
-            "Name": "BasePlayer_CanBuild",
-            "HookName": "CanBuild",
+            "Name": "PlayerLoot_StartLootingEntity",
+            "HookName": "OnPlayerLoot",
             "AssemblyName": "Assembly-CSharp",
-            "TypeName": "BasePlayer",
+            "TypeName": "PlayerLoot",
             "Flagged": false,
             "Signature": {
               "Exposure": 2,
-              "Name": "CanBuild",
-              "ReturnType": "System.Boolean",
-              "Parameters": []
+              "Name": "StartLootingEntity",
+              "ReturnType": "System.Void",
+              "Parameters": [
+                "BaseEntity",
+                "System.Boolean"
+              ]
             },
-            "MSILHash": "oNxPrvJSBnqP4VQVqUeLq9ggOok3ezK5UAx+awFNXXM="
+            "MSILHash": "0iFap2kOGqaq4xeeoJhA5HxTdTaAxCpWBxa/0fQvX4A="
+          }
+        },
+        {
+          "Type": "Simple",
+          "Hook": {
+            "InjectionIndex": 33,
+            "ReturnBehaviour": 0,
+            "ArgumentBehaviour": 3,
+            "ArgumentString": null,
+            "HookTypeName": "Simple",
+            "Name": "PlayerLoot_StartLootingItem",
+            "HookName": "OnPlayerLoot",
+            "AssemblyName": "Assembly-CSharp",
+            "TypeName": "PlayerLoot",
+            "Flagged": false,
+            "Signature": {
+              "Exposure": 2,
+              "Name": "StartLootingItem",
+              "ReturnType": "System.Void",
+              "Parameters": [
+                "Item"
+              ]
+            },
+            "MSILHash": "QMNC3mD8uk1yy7hbzxV89eKOofmhi3AD13jKgDL9TBQ="
           }
         }
       ]
