@@ -86,7 +86,7 @@
               "ReturnType": "System.Void",
               "Parameters": []
             },
-            "MSILHash": "LuLbo7sv7OmlCH2+bwKrqzeJq9tcUTj6cKD8cQtg38E="
+            "MSILHash": "7I/t7t95Zi7CLUqcGmEMdEHm6lHsnzmILfNWNLNVOMI="
           }
         },
         {
@@ -111,7 +111,7 @@
                 "ProtoBuf.Connect"
               ]
             },
-            "MSILHash": "lL9ABVo/fqyD7K2aURI5yobaR7yIhcfZXG1B3YYFvl0="
+            "MSILHash": "piVTyKk/IyseOLnwp6mgZAQ6mWOUNzgcQDPEYRrIgGs="
           }
         },
         {
@@ -135,7 +135,7 @@
                 "Network.Message"
               ]
             },
-            "MSILHash": "EW8GwtKoaNPMo7mutYtJnqAzYwQ5kVHJPBeDWemWrFA="
+            "MSILHash": "dpyxxyg1/lWYG7U7ln2JOSp6FMtCAIsOsTzvZl7IOCk="
           }
         },
         {
@@ -179,7 +179,7 @@
               "ReturnType": "System.Void",
               "Parameters": []
             },
-            "MSILHash": "PByRcZEBIpifvD1dqNcvD8/SFLQQ2C8tpB2PSko0/U4="
+            "MSILHash": "/l7x1mw9otwcc8R/zp3rpX0lcmZBCsyK0gvyEXJUe0o="
           }
         },
         {
@@ -203,7 +203,7 @@
                 "System.Single"
               ]
             },
-            "MSILHash": "UwuLPpLShyxixnB4rtBmY7oEDoBwF7ovXKmLE/8NhZM="
+            "MSILHash": "jrp7DVqtNGYnm8/BrQ6w+LpDJN8JbPNkVyEREO4Og64="
           }
         },
         {
@@ -347,7 +347,7 @@
                 "HitInfo"
               ]
             },
-            "MSILHash": "FRnQkEsZXbNXPyZ+BuMVrult6Iw6zRPCp0Wp3JiSwKM="
+            "MSILHash": "8dSaFVqVMkSz28ukG2dtcl34kNPPIHn9QR0q4Ky5t6c="
           }
         },
         {
@@ -425,7 +425,7 @@
         {
           "Type": "Simple",
           "Hook": {
-            "InjectionIndex": 64,
+            "InjectionIndex": 68,
             "ReturnBehaviour": 0,
             "ArgumentBehaviour": 1,
             "ArgumentString": null,
@@ -443,7 +443,7 @@
                 "Network.Connection"
               ]
             },
-            "MSILHash": "YMYiSU/I0j03qnCrEfkxRM/kTigWSO6h8uEO/fINMjY="
+            "MSILHash": "XcUs6HBJskQ/tTIMPGj3nOK9SYYM4z3EcjNaajsaSXg="
           }
         },
         {
@@ -595,30 +595,6 @@
         {
           "Type": "Simple",
           "Hook": {
-            "InjectionIndex": 7,
-            "ReturnBehaviour": 1,
-            "ArgumentBehaviour": 2,
-            "ArgumentString": "",
-            "HookTypeName": "Simple",
-            "Name": "chat_say",
-            "HookName": "OnPlayerChat",
-            "AssemblyName": "Assembly-CSharp",
-            "TypeName": "chat",
-            "Flagged": false,
-            "Signature": {
-              "Exposure": 2,
-              "Name": "say",
-              "ReturnType": "System.Void",
-              "Parameters": [
-                "ConsoleSystem/Arg"
-              ]
-            },
-            "MSILHash": "u13yjVP4hPYn+KlopWhewm17Wcj61zYC4RMiPy4Iuvo="
-          }
-        },
-        {
-          "Type": "Simple",
-          "Hook": {
             "InjectionIndex": 88,
             "ReturnBehaviour": 3,
             "ArgumentBehaviour": 4,
@@ -713,7 +689,7 @@
                 "HitInfo"
               ]
             },
-            "MSILHash": "OwtpnYvUs0H5p6TnD+iJbbu1SP6MQC42q3XKoWWuqAU="
+            "MSILHash": "3p5MGO2nfY0Ifnxy8hFSnhDCnGt0G0saNkAsVcDJF84="
           }
         },
         {
@@ -763,6 +739,30 @@
               ]
             },
             "MSILHash": "QMNC3mD8uk1yy7hbzxV89eKOofmhi3AD13jKgDL9TBQ="
+          }
+        },
+        {
+          "Type": "Simple",
+          "Hook": {
+            "InjectionIndex": 0,
+            "ReturnBehaviour": 1,
+            "ArgumentBehaviour": 3,
+            "ArgumentString": null,
+            "HookTypeName": "Simple",
+            "Name": "BaseLock_OnTryToClose",
+            "HookName": "CanOpenDoor",
+            "AssemblyName": "Assembly-CSharp",
+            "TypeName": "BaseLock",
+            "Flagged": false,
+            "Signature": {
+              "Exposure": 2,
+              "Name": "OnTryToClose",
+              "ReturnType": "System.Boolean",
+              "Parameters": [
+                "BasePlayer"
+              ]
+            },
+            "MSILHash": "P3Mx+v3adUs95vU27ANKY5mvZxgLUs14zJrrTfI5vlw="
           }
         }
       ]
