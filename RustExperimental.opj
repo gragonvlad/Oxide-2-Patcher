@@ -86,7 +86,7 @@
               "ReturnType": "System.Void",
               "Parameters": []
             },
-            "MSILHash": "7I/t7t95Zi7CLUqcGmEMdEHm6lHsnzmILfNWNLNVOMI="
+            "MSILHash": "ZC44uzatYem9xv5tf3K0DQRsQdu9h3AR9oTcrRRmmLY="
           }
         },
         {
@@ -111,7 +111,7 @@
                 "ProtoBuf.Connect"
               ]
             },
-            "MSILHash": "piVTyKk/IyseOLnwp6mgZAQ6mWOUNzgcQDPEYRrIgGs="
+            "MSILHash": "dpui4WA8c/byrhlOmV+CreTuOSTcfYTw6sSLuIghpbw="
           }
         },
         {
@@ -477,8 +477,8 @@
           "Hook": {
             "InjectionIndex": 0,
             "ReturnBehaviour": 1,
-            "ArgumentBehaviour": 3,
-            "ArgumentString": null,
+            "ArgumentBehaviour": 4,
+            "ArgumentString": "a0, this",
             "HookTypeName": "Simple",
             "Name": "BaseLock_OnTryToOpen",
             "HookName": "CanOpenDoor",
@@ -501,8 +501,8 @@
           "Hook": {
             "InjectionIndex": 0,
             "ReturnBehaviour": 1,
-            "ArgumentBehaviour": 3,
-            "ArgumentString": null,
+            "ArgumentBehaviour": 4,
+            "ArgumentString": "a0, this",
             "HookTypeName": "Simple",
             "Name": "CodeLock_OnTryToOpen",
             "HookName": "CanOpenDoor",
@@ -525,8 +525,8 @@
           "Hook": {
             "InjectionIndex": 0,
             "ReturnBehaviour": 1,
-            "ArgumentBehaviour": 3,
-            "ArgumentString": null,
+            "ArgumentBehaviour": 4,
+            "ArgumentString": "a0, this",
             "HookTypeName": "Simple",
             "Name": "CodeLock_OnTryToClose",
             "HookName": "CanOpenDoor",
@@ -549,8 +549,8 @@
           "Hook": {
             "InjectionIndex": 0,
             "ReturnBehaviour": 1,
-            "ArgumentBehaviour": 3,
-            "ArgumentString": null,
+            "ArgumentBehaviour": 4,
+            "ArgumentString": "a0, this",
             "HookTypeName": "Simple",
             "Name": "KeyLock_OnTryToClose",
             "HookName": "CanOpenDoor",
@@ -573,8 +573,8 @@
           "Hook": {
             "InjectionIndex": 0,
             "ReturnBehaviour": 1,
-            "ArgumentBehaviour": 3,
-            "ArgumentString": null,
+            "ArgumentBehaviour": 4,
+            "ArgumentString": "a0, this",
             "HookTypeName": "Simple",
             "Name": "KeyLock_OnTryToOpen",
             "HookName": "CanOpenDoor",
@@ -598,7 +598,7 @@
             "InjectionIndex": 88,
             "ReturnBehaviour": 3,
             "ArgumentBehaviour": 4,
-            "ArgumentString": "a0, a1, l0 => l0",
+            "ArgumentString": "l0 => l0",
             "HookTypeName": "Simple",
             "Name": "ItemCrafter_CraftItem",
             "HookName": "OnItemCraft",
@@ -746,8 +746,8 @@
           "Hook": {
             "InjectionIndex": 0,
             "ReturnBehaviour": 1,
-            "ArgumentBehaviour": 3,
-            "ArgumentString": null,
+            "ArgumentBehaviour": 4,
+            "ArgumentString": "a0, this",
             "HookTypeName": "Simple",
             "Name": "BaseLock_OnTryToClose",
             "HookName": "CanOpenDoor",
@@ -763,6 +763,30 @@
               ]
             },
             "MSILHash": "P3Mx+v3adUs95vU27ANKY5mvZxgLUs14zJrrTfI5vlw="
+          }
+        },
+        {
+          "Type": "Simple",
+          "Hook": {
+            "InjectionIndex": 0,
+            "ReturnBehaviour": 1,
+            "ArgumentBehaviour": 2,
+            "ArgumentString": null,
+            "HookTypeName": "Simple",
+            "Name": "chat_say",
+            "HookName": "OnUserChat",
+            "AssemblyName": "Assembly-CSharp",
+            "TypeName": "chat",
+            "Flagged": false,
+            "Signature": {
+              "Exposure": 2,
+              "Name": "say",
+              "ReturnType": "System.Void",
+              "Parameters": [
+                "ConsoleSystem/Arg"
+              ]
+            },
+            "MSILHash": "RQVULhbNBqYwGDImz9NGOijDllw6AAJnf/3rOBbwa2Y="
           }
         }
       ]
@@ -792,7 +816,7 @@
                 "System.Boolean"
               ]
             },
-            "MSILHash": "Sa2qcDHt+j8N8OtqtdC+fx2lzYBBs87nkEznlev487Y="
+            "MSILHash": "aquOmk11aEZFv4UPpw7nXnX1FYN94e1HgwSxN/vlbV4="
           }
         },
         {
@@ -817,7 +841,7 @@
                 "System.Boolean"
               ]
             },
-            "MSILHash": "86JKPt9ZRB45UpWLhJh8SHaxpcJYj6dME9sYhFsBL0M="
+            "MSILHash": "pNvPvnYHlvxrvmG+v+R1yOzAgOu9WtGJbdPOfjT/6RE="
           }
         },
         {
@@ -843,7 +867,7 @@
                 "System.Boolean"
               ]
             },
-            "MSILHash": "v0SxaEwmo3HOr6Iwx/Lo0MueMVh/3y47+7VEwrCDHyo="
+            "MSILHash": "hkomQDE9TZ7IweCM5ufZs3JpV6CEiEz4CaWTCF0GLUA="
           }
         },
         {
@@ -867,7 +891,7 @@
                 "Network.Message"
               ]
             },
-            "MSILHash": "UtAz05aAZf+82Vxb3D8kv6uA/E29fx7jF5/X3rXvIXg="
+            "MSILHash": "Balimbo0If3/yivGvxq1cSHtqFNkQOoKBTPE5reZsqQ="
           }
         }
       ]
