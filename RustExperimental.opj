@@ -774,7 +774,7 @@
             "ArgumentString": null,
             "HookTypeName": "Simple",
             "Name": "chat_say",
-            "HookName": "OnUserChat",
+            "HookName": "OnPlayerChat",
             "AssemblyName": "Assembly-CSharp",
             "TypeName": "chat",
             "Flagged": false,
